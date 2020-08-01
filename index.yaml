@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  tetris:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-07-31T19:53:36.541252527-05:00"
+    description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
+      a learning exercise for array matrixes and how to manipulate them.
+    digest: 89166b250392b7213058d726dbeb14fdf842a1ac51b1ab3e4868d4f61ff8d512
+    name: tetris
+    type: application
+    urls:
+    - https://bsord.github.io/helm-charts/tetris-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-07-31T19:53:36.539613735-05:00"
