@@ -8,4 +8,4 @@ Local Helm repository for Kubernetes
 - `helm search repo bsord`
 
 ### Charts
-- [docker-node-app](https://github.com/bsord/tetris)
+- [tetris](https://github.com/bsord/tetris)
