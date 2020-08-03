@@ -9,3 +9,4 @@ Local Helm repository for Kubernetes
 
 ### Charts
 - [tetris](https://github.com/bsord/tetris)
+- [rr-bsord](https://github.com/bsord/react-register)
