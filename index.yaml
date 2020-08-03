@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   rr-bsord:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2020-08-03T11:34:16.918443616-05:00"
+    appVersion: latest
+    created: "2020-08-03T16:03:23.766420024-05:00"
     description: A customized version of react-register
-    digest: b0432e83edd55c34b2f2599114c0c4e3f5ca7f32102ba5da1c6f10963bbd3452
+    digest: 91aae134098fd4a49213cf4ec29bc8d0a4dc4ec1efa2f4d741ff504b46372c9b
     name: rr-bsord
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   tetris:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-08-03T11:34:16.91949-05:00"
+    created: "2020-08-03T16:03:23.767757472-05:00"
     description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
       a learning exercise for array matrixes and how to manipulate them.
     digest: 89166b250392b7213058d726dbeb14fdf842a1ac51b1ab3e4868d4f61ff8d512
@@ -23,4 +23,4 @@ entries:
     urls:
     - https://bsord.github.io/helm-charts/tetris-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-03T11:34:16.917359386-05:00"
+generated: "2020-08-03T16:03:23.765040009-05:00"
