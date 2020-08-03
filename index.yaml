@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  rr-bsord:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-08-03T11:28:15.760273374-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 22cbe38db89cd3b6ab87d09cc266658a7180a1b95f6035eda3950bf2a3c2f185
+    name: rr-bsord
+    type: application
+    urls:
+    - https://bsord.github.io/helm-charts/rr-bsord-0.1.0.tgz
+    version: 0.1.0
   tetris:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-07-31T19:53:36.541252527-05:00"
+    created: "2020-08-03T11:28:15.761638803-05:00"
     description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
       a learning exercise for array matrixes and how to manipulate them.
     digest: 89166b250392b7213058d726dbeb14fdf842a1ac51b1ab3e4868d4f61ff8d512
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://bsord.github.io/helm-charts/tetris-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-31T19:53:36.539613735-05:00"
+generated: "2020-08-03T11:28:15.758973401-05:00"
