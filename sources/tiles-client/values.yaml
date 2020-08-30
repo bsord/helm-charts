@@ -1,0 +1,27 @@
+affinity: {}
+fullnameOverride: ""
+REACT_APP_API: "pls.change.me"
+image:
+  pullPolicy: IfNotPresent
+  repository: bsord/tiles-client
+imagePullSecrets: []
+ingress:
+  annotations: {}
+  enabled: true
+  hosts:
+  - host: chart-example.local
+    paths: []
+  tls: []
+nameOverride: ""
+nodeSelector: {}
+podSecurityContext: {}
+replicaCount: 1
+resources: {}
+securityContext: {}
+service:
+  port: 80
+  type: ClusterIP
+serviceAccount:
+  create: true
+  name: null
+tolerations: []
