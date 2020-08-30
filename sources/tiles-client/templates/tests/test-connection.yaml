@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "{{ include "tiles-api.fullname" . }}-test-connection"
+  name: "{{ include "tiles-client.fullname" . }}-test-connection"
   labels:
-{{ include "tiles-api.labels" . | nindent 4 }}
+{{ include "tiles-client.labels" . | nindent 4 }}
   annotations:
     "helm.sh/hook": test-success
 spec:
@@ -11,5 +11,5 @@ spec:
     - name: wget
       image: busybox
       command: ['wget']
-      args:  ['{{ include "tiles-api.fullname" . }}:{{ .Values.service.port }}']
+      args:  ['{{ include "tiles-client.fullname" . }}:{{ .Values.service.port }}']
   restartPolicy: Never
