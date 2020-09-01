@@ -31,3 +31,6 @@ serviceAccount:
   create: true
   name: null
 tolerations: []
+mongoURI: ""
+redisHost: ""
+redisPassword: ""
