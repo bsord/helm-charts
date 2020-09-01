@@ -42,6 +42,10 @@ spec:
           env:          
           - name: "MongoURI"
             value: {{ .Values.mongoURI }}
+          - name: "Redis_Hostname"
+            value: {{ .Values.redisHost }}
+          - name: "Redis_Password"
+            value: {{ .Values.redisPassword }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
