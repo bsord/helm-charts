@@ -35,7 +35,10 @@ service:
   port: 80
 
 ingress:
-  annotations: {}
+  annotations: {
+    nginx.ingress.kubernetes.io/add-base-url: "true",
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  }
   enabled: true
   hosts:
   - host: chart-example.local
