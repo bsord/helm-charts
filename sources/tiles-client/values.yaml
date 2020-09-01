@@ -11,7 +11,7 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-REACT_APP_API: "pls.change.me"
+apiHost: "pls.change.me"
 serviceAccount:
   # Specifies whether a service account should be created
   create: true

@@ -3,7 +3,7 @@ entries:
   tetris:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-08-29T22:06:46.856099298-05:00"
+    created: "2020-08-31T22:07:47.553476768-05:00"
     description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
       a learning exercise for array matrixes and how to manipulate them.
     digest: c6b7ba350fb14cf2376f7d574b644f0b597a577ff50fec28e1a9855e6e9346c5
@@ -15,7 +15,7 @@ entries:
   tiles-api:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-08-29T22:06:46.853767611-05:00"
+    created: "2020-08-31T22:07:47.551374035-05:00"
     description: Backend service with DB for Tiles application
     digest: 7145c37d3280a5d363f1c8c5cb32464a40dae2c95e24826e397a3cf5d14147f2
     name: tiles-api
@@ -26,7 +26,7 @@ entries:
   tiles-client:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-08-29T22:06:46.855061504-05:00"
+    created: "2020-08-31T22:07:47.552397008-05:00"
     description: Backend service with DB for Tiles application
     digest: cc833c5db9ea1649b100a59096bd9309476b9b3631a35a86dfe6a41b38f41194
     name: tiles-client
@@ -34,4 +34,4 @@ entries:
     urls:
     - tiles-client-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-29T22:06:46.85176004-05:00"
+generated: "2020-08-31T22:07:47.549986341-05:00"

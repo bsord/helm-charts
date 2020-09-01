@@ -4,4 +4,4 @@ metadata:
   name: {{ .Release.Name }}-configmap
 data:
   config.js: |
-    window.REACT_APP_API="{{ .Values.REACT_APP_API }}"
+    window.REACT_APP_API="{{ .Values.apiHost }}"
