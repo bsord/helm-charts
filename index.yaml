@@ -3,7 +3,7 @@ entries:
   rr-bsord:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-09-12T22:41:11.156064568-05:00"
+    created: "2020-09-12T22:48:55.107603837-05:00"
     description: A customized version of react-register
     digest: 91aae134098fd4a49213cf4ec29bc8d0a4dc4ec1efa2f4d741ff504b46372c9b
     name: rr-bsord
@@ -14,9 +14,9 @@ entries:
   sonny:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-09-12T22:41:11.157630881-05:00"
+    created: "2020-09-12T22:48:55.169787866-05:00"
     description: A Slackbot running Hubot v3
-    digest: 01c5b9e84dbd86def2b525caf0b44382da81c65be32e537ecf9d789a99ad73c4
+    digest: 349815e1a8c76b8781bac3847fd2eb54d57431398e171f12472411a0a6286598
     name: sonny
     type: application
     urls:
@@ -25,7 +25,7 @@ entries:
   tetris:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-09-12T22:41:11.168648393-05:00"
+    created: "2020-09-12T22:48:55.17254965-05:00"
     description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
       a learning exercise for array matrixes and how to manipulate them.
     digest: 89166b250392b7213058d726dbeb14fdf842a1ac51b1ab3e4868d4f61ff8d512
@@ -37,7 +37,7 @@ entries:
   tiles-api:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-09-12T22:41:11.174406237-05:00"
+    created: "2020-09-12T22:48:55.173638162-05:00"
     description: Backend service with DB for Tiles application
     digest: 9359dcea69b92997edb2be83cb753e61350da4535226c62567b415f9dbbb950e
     name: tiles-api
@@ -48,7 +48,7 @@ entries:
   tiles-client:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-09-12T22:41:11.175659112-05:00"
+    created: "2020-09-12T22:48:55.174743292-05:00"
     description: Web client for Tiles application
     digest: 1f2b25fe03ba17282d83d70b7c0bd87f8d04027569538e9f2b41b66ea7bc8d65
     name: tiles-client
@@ -56,4 +56,4 @@ entries:
     urls:
     - tiles-client-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-12T22:41:11.143277219-05:00"
+generated: "2020-09-12T22:48:55.106288053-05:00"
