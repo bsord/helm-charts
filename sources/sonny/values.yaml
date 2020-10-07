@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: bsord/sonny
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 imagePullSecrets: []
 nameOverride: ""
