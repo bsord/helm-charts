@@ -11,7 +11,7 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-allowedSenderDomains: "rcvr.io"
+allowedSenderDomains: "bsord.dev"
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
