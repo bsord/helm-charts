@@ -8,8 +8,8 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: http
+      targetPort: 587
       protocol: TCP
-      name: http
+      name: smtp
   selector:
     {{- include "postfix.selectorLabels" . | nindent 4 }}
