@@ -38,7 +38,7 @@ spec:
               value: {{ .Values.allowedSenderDomains }}
           volumeMounts:
             - name: rcvr-relay-dkim-key
-              mountPath: "/etc/postfix/dkim"
+              mountPath: "/etc/opendkim/keys"
       volumes:
         - name: rcvr-relay-dkim-key
           secret:
