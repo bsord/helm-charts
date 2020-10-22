@@ -45,7 +45,7 @@ spec:
             secretName: rcvr-relay-dkim-key
             items:
             - key: dkim-key
-              path: mail.key
+              path: bsord.dev.private
               mode: 0777
       {{- with .Values.nodeSelector }}
       nodeSelector:
