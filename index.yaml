@@ -3,7 +3,17 @@ entries:
   postfix:
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2020-10-21T18:05:49.861032204-05:00"
+    created: "2020-10-21T21:53:02.800574822-05:00"
+    description: Helm Chart for boky/postfix
+    digest: 7abf8680c9f94c7532f6e4bf45d4e3dda7f8de9fa2579e133c7dcaade206a342
+    name: postfix
+    type: application
+    urls:
+    - postfix-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: v2.0.1
+    created: "2020-10-21T21:53:02.799482501-05:00"
     description: Helm Chart for boky/postfix
     digest: a4356299be16ca6e7844872fa7bd33747bca71612e0ab83644c95150b25684c3
     name: postfix
@@ -13,7 +23,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2020-10-21T18:05:49.85987922-05:00"
+    created: "2020-10-21T21:53:02.791704751-05:00"
     description: Helm Chart for boky/postfix
     digest: f04ddb60ea9e352ba86a00887cb8a6551ece61e249ffce9b956ecd0f2187a25a
     name: postfix
@@ -23,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-21T18:05:49.850923554-05:00"
+    created: "2020-10-21T21:53:02.781154904-05:00"
     description: Helm Chart for boky/postfix
     digest: 759baeadae3e063ab04fd66c43daa1fc20932da64fe58c11e38173bb66f0a4a6
     name: postfix
@@ -34,7 +44,7 @@ entries:
   rr-bsord:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-21T18:05:49.87104613-05:00"
+    created: "2020-10-21T21:53:02.810513733-05:00"
     description: A customized version of react-register
     digest: 91aae134098fd4a49213cf4ec29bc8d0a4dc4ec1efa2f4d741ff504b46372c9b
     name: rr-bsord
@@ -45,7 +55,7 @@ entries:
   sonny:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-21T18:05:49.881050687-05:00"
+    created: "2020-10-21T21:53:02.822049095-05:00"
     description: A Slackbot running Hubot v3
     digest: a177f319c0ecf54926374ccc8ce995244faf34965cace401dde1306c632e0b92
     name: sonny
@@ -56,7 +66,7 @@ entries:
   tetris:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-21T18:05:49.887390421-05:00"
+    created: "2020-10-21T21:53:02.832929423-05:00"
     description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
       a learning exercise for array matrixes and how to manipulate them.
     digest: 89166b250392b7213058d726dbeb14fdf842a1ac51b1ab3e4868d4f61ff8d512
@@ -68,7 +78,7 @@ entries:
   tiles-api:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-21T18:05:49.891293804-05:00"
+    created: "2020-10-21T21:53:02.843874751-05:00"
     description: Backend service with DB for Tiles application
     digest: 9359dcea69b92997edb2be83cb753e61350da4535226c62567b415f9dbbb950e
     name: tiles-api
@@ -79,7 +89,7 @@ entries:
   tiles-client:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-21T18:05:49.89276662-05:00"
+    created: "2020-10-21T21:53:02.846414706-05:00"
     description: Web client for Tiles application
     digest: 1f2b25fe03ba17282d83d70b7c0bd87f8d04027569538e9f2b41b66ea7bc8d65
     name: tiles-client
@@ -87,4 +97,4 @@ entries:
     urls:
     - tiles-client-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-21T18:05:49.840097145-05:00"
+generated: "2020-10-21T21:53:02.771927083-05:00"

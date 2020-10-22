@@ -36,6 +36,17 @@ spec:
           env:
             - name: ALLOWED_SENDER_DOMAINS
               value: {{ .Values.allowedSenderDomains }}
+          volumeMounts:
+            - name: rcvr-relay-dkim-key
+              mountPath: "/etc/postfix/dkim"
+      volumes:
+        - name: rcvr-relay-dkim-key
+          secret:
+            secretName: rcvr-relay-dkim-key
+            items:
+            - key: dkim-key
+              path: mail.key
+              mode: 0777
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
