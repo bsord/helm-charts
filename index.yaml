@@ -3,7 +3,17 @@ entries:
   postfix:
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2021-02-27T11:34:37.655907929-06:00"
+    created: "2021-02-27T11:49:21.220831389-06:00"
+    description: Helm Chart for boky/postfix
+    digest: 5f45692367e43b4898a02f4f3243243e6ec697a54044e3edbe6db87dd1526ac2
+    name: postfix
+    type: application
+    urls:
+    - postfix-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: v2.0.1
+    created: "2021-02-27T11:49:21.219411968-06:00"
     description: Helm Chart for boky/postfix
     digest: af4b2de620e2060dd1ec5e534fc7f29a21011c3a07417711f7d6c059648feeb0
     name: postfix
@@ -13,7 +23,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2021-02-27T11:34:37.654236543-06:00"
+    created: "2021-02-27T11:49:21.218005353-06:00"
     description: Helm Chart for boky/postfix
     digest: bde0bd3ba532e12aa9054819b3d7a9f883fd0bf88937f532d3902b14da2a4977
     name: postfix
@@ -23,7 +33,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2021-02-27T11:34:37.653052963-06:00"
+    created: "2021-02-27T11:49:21.216828514-06:00"
     description: Helm Chart for boky/postfix
     digest: 89eeb5f56d16b16fe8fc9eddcd649600cdfcceb3a9633beba323baa1e70c1b21
     name: postfix
@@ -33,7 +43,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2021-02-27T11:34:37.651804065-06:00"
+    created: "2021-02-27T11:49:21.215606763-06:00"
     description: Helm Chart for boky/postfix
     digest: 7abf8680c9f94c7532f6e4bf45d4e3dda7f8de9fa2579e133c7dcaade206a342
     name: postfix
@@ -43,7 +53,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2021-02-27T11:34:37.650621615-06:00"
+    created: "2021-02-27T11:49:21.214459432-06:00"
     description: Helm Chart for boky/postfix
     digest: a4356299be16ca6e7844872fa7bd33747bca71612e0ab83644c95150b25684c3
     name: postfix
@@ -53,7 +63,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2021-02-27T11:34:37.648765685-06:00"
+    created: "2021-02-27T11:49:21.213410023-06:00"
     description: Helm Chart for boky/postfix
     digest: f04ddb60ea9e352ba86a00887cb8a6551ece61e249ffce9b956ecd0f2187a25a
     name: postfix
@@ -63,7 +73,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.647534855-06:00"
+    created: "2021-02-27T11:49:21.212355202-06:00"
     description: Helm Chart for boky/postfix
     digest: 759baeadae3e063ab04fd66c43daa1fc20932da64fe58c11e38173bb66f0a4a6
     name: postfix
@@ -74,7 +84,17 @@ entries:
   rr-bsord:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.658474887-06:00"
+    created: "2021-02-27T11:49:21.225775904-06:00"
+    description: A customized version of react-register
+    digest: ea254430123e3d5ddd6f783774e807db82d733595d6fafa041a8a0a7da09ea52
+    name: rr-bsord
+    type: application
+    urls:
+    - rr-bsord-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-02-27T11:49:21.223323676-06:00"
     description: A customized version of react-register
     digest: 4642185a64f7a17987f467489d170b080d5c9490b7e5cbfb47bf598a605a6a0f
     name: rr-bsord
@@ -84,7 +104,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.657159419-06:00"
+    created: "2021-02-27T11:49:21.221973048-06:00"
     description: A customized version of react-register
     digest: 91aae134098fd4a49213cf4ec29bc8d0a4dc4ec1efa2f4d741ff504b46372c9b
     name: rr-bsord
@@ -95,7 +115,7 @@ entries:
   sonny:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.659685929-06:00"
+    created: "2021-02-27T11:49:21.22735757-06:00"
     description: A Slackbot running Hubot v3
     digest: a177f319c0ecf54926374ccc8ce995244faf34965cace401dde1306c632e0b92
     name: sonny
@@ -106,7 +126,7 @@ entries:
   tetris:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.674238462-06:00"
+    created: "2021-02-27T11:49:21.232009336-06:00"
     description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
       a learning exercise for array matrixes and how to manipulate them.
     digest: 75551ee53d1bc9bc46619ff60fd868f9e5377e9160f76aa540a3d6318519f2b5
@@ -117,7 +137,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.672996702-06:00"
+    created: "2021-02-27T11:49:21.230863594-06:00"
     description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
       a learning exercise for array matrixes and how to manipulate them.
     digest: 80fb384f1cfa7d3731f8d5808908feb0201f1ee9989acedad87fa0b48947e186
@@ -128,7 +148,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.671019118-06:00"
+    created: "2021-02-27T11:49:21.229435519-06:00"
     description: Tetris game built on HTML5 Canvas and Javascript. Built mostly as
       a learning exercise for array matrixes and how to manipulate them.
     digest: 89166b250392b7213058d726dbeb14fdf842a1ac51b1ab3e4868d4f61ff8d512
@@ -140,7 +160,7 @@ entries:
   tiles-api:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.675628567-06:00"
+    created: "2021-02-27T11:49:21.233167149-06:00"
     description: Backend service with DB for Tiles application
     digest: 9359dcea69b92997edb2be83cb753e61350da4535226c62567b415f9dbbb950e
     name: tiles-api
@@ -151,7 +171,7 @@ entries:
   tiles-client:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-27T11:34:37.676868461-06:00"
+    created: "2021-02-27T11:49:21.234245851-06:00"
     description: Web client for Tiles application
     digest: 1f2b25fe03ba17282d83d70b7c0bd87f8d04027569538e9f2b41b66ea7bc8d65
     name: tiles-client
@@ -159,4 +179,4 @@ entries:
     urls:
     - tiles-client-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-27T11:34:37.646198647-06:00"
+generated: "2021-02-27T11:49:21.211056879-06:00"
