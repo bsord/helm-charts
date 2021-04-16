@@ -42,9 +42,9 @@ spec:
       volumes:
         - name: rcvr-relay-dkim-key
           secret:
-            secretName: rcvr-relay-dkim-key
+            secretName: {{ .Values.dkimSecretName }}
             items:
-            - key: dkim-key
+            - key: dkimKey
               path: bsord.dev.private
               mode: 0777
       {{- with .Values.nodeSelector }}
