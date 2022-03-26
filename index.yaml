@@ -3,9 +3,9 @@ entries:
   postfix:
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2022-03-26T17:33:07.620060158Z"
+    created: "2022-03-26T18:30:53.197406298Z"
     description: Helm Chart for boky/postfix
-    digest: 10e50f522f616113259129400ff92a13f8e32c9a4cc8d8891a63a5bb17751546
+    digest: 9e99dc9038bb4a1b24d1403eb4c8a38e14fb045caea0a9217ed4f18b32eb9c74
     name: postfix
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   rcvr-smtp:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T17:33:07.620964765Z"
+    created: "2022-03-26T18:30:53.197991406Z"
     description: SMTP service for rcvr
-    digest: 4d355e9d09bd828804c9c51643cf9fcd7faa1fa90629429224d95c5a05a5737e
+    digest: 7693dbfb73d196493a16ff3162ce7db9894e94b788d5a72eaade71d4636900ab
     name: rcvr-smtp
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   rr-bsord:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T17:33:07.621622469Z"
+    created: "2022-03-26T18:30:53.198452912Z"
     description: A customized version of react-register
-    digest: 1c653aa8e85d41cfb75c6722f0ebdcb9290055c9a8ce988134f597660da84417
+    digest: 8047cc8838181c728dbeff22bb9e37ac1c5dc6041340682721e3a6b5a36fd20c
     name: rr-bsord
     type: application
     urls:
@@ -36,9 +36,9 @@ entries:
   sonny:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T17:33:07.622096673Z"
+    created: "2022-03-26T18:30:53.198833517Z"
     description: A Slackbot running Hubot v3
-    digest: 6c1d315222dad309b720cf7af5dd2e3631903528758c6a64b75ca7628c87dab9
+    digest: 85ddbf419f262d53862eeffc927c9cc10a126dadfdc308ae613321afe7f552b8
     name: sonny
     type: application
     urls:
@@ -47,9 +47,9 @@ entries:
   tiles-api:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T17:33:07.622575077Z"
+    created: "2022-03-26T18:30:53.199216022Z"
     description: Backend service with DB for Tiles application
-    digest: e528ac2fd623e54304aaec2f099dab4208afcf0e4942affc798c33e71852458f
+    digest: 5a33d8c6904ffcf36b23d15074abf46bab7c3339a634b91a7c183577b7784b4f
     name: tiles-api
     type: application
     urls:
@@ -57,8 +57,18 @@ entries:
     version: 0.1.0
   tiles-client:
   - apiVersion: v2
+    appVersion: 1.0.2-beta.3
+    created: "2022-03-26T18:30:53.200053133Z"
+    description: Web client for Tiles application
+    digest: 4d76951b933a756c0b55ea0be1201aeb40881326a611fbf34ee7bd4ca6aa38d8
+    name: tiles-client
+    type: application
+    urls:
+    - https://github.com/bsord/helm-charts/raw/master/packages/tiles-client-1.0.2-beta.3.tgz
+    version: 1.0.2-beta.3
+  - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T17:33:07.62306088Z"
+    created: "2022-03-26T18:30:53.199590727Z"
     description: Web client for Tiles application
     digest: cde3e501986bbdb1fac534a0cf0ec2c0334d10a9d52c292fc6b7720a52e9f90f
     name: tiles-client
@@ -66,4 +76,4 @@ entries:
     urls:
     - https://github.com/bsord/helm-charts/raw/master/packages/tiles-client-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-26T17:33:07.617888941Z"
+generated: "2022-03-26T18:30:53.195540074Z"
