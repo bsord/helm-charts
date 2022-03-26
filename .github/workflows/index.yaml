@@ -1,0 +1,50 @@
+name: Helm repo index
+
+on:
+  push:
+    branches:
+      - 'master'
+      - 'main'
+  workflow_dispatch:
+  repository_dispatch:
+
+jobs:
+  index:
+    name: "Build index"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: "actions/checkout@v2"
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Gather Charts, build index, and update readme
+        run: |
+          #!/bin/bash
+
+          # define array for later use
+          charts=()
+          # download and package charts
+          cd sources
+
+          for f in */; do
+              echo $f
+              cd $f
+              # Package chart from specified chart dir
+              helm package -d ../../packages .
+              # backout
+              cd ..
+          done
+
+          cd ..
+          # Update the index
+          helm repo index ./packages/ --url https://github.com/bsord/helm-charts/raw/master/packages/
+          rm -rf index.yaml
+          mv ./packages/index.yaml index.yaml
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7.2.1
+        with:
+          message: "Automatically rebuild sources and index"
+          push: "origin ${{ github.event.repository.default_branch }} --force"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
