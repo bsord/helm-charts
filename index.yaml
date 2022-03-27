@@ -3,9 +3,9 @@ entries:
   postfix:
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2022-03-26T19:28:56.855714159Z"
+    created: "2022-03-27T04:10:03.590070536Z"
     description: Helm Chart for boky/postfix
-    digest: ce9c60bb295475a803a8866c24e38ca9d3b5bae3af0941cce2ed3aa2deee442a
+    digest: 9ad1fd1f833871ac0a186760fcc05b5576e88d239fa12767162aed066510b4d1
     name: postfix
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   rcvr-smtp:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T19:28:56.863922254Z"
+    created: "2022-03-27T04:10:03.59061945Z"
     description: SMTP service for rcvr
-    digest: b9e899c10276cde671c6a077fe91258dbdfc48091d82db4e280acfd28812e441
+    digest: 6250e23e4cc164e94549202b28ed160cb97f0f2cb4a16e5462c0dbdba398d938
     name: rcvr-smtp
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   rr-bsord:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T19:28:56.864373265Z"
+    created: "2022-03-27T04:10:03.591206666Z"
     description: A customized version of react-register
-    digest: f9a26018cae90a2ad02831ce52e1518b5fb581136d4ead2e14974236d5be0967
+    digest: e97bdce276ab90be6b3b78dca3ca807e47b287b02535f219ae82c14c554d5e65
     name: rr-bsord
     type: application
     urls:
@@ -36,9 +36,9 @@ entries:
   sonny:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T19:28:56.864717373Z"
+    created: "2022-03-27T04:10:03.592047288Z"
     description: A Slackbot running Hubot v3
-    digest: b69955aecd088bfe936eaca6781fce4fab68e0fdc9caea715c9aaee7afad9f4c
+    digest: eb3db6034d61dd1dedb48574ee2578b0b476ccd3edb89820a75d823b34adb443
     name: sonny
     type: application
     urls:
@@ -47,9 +47,9 @@ entries:
   tiles-api:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T19:28:56.865100482Z"
+    created: "2022-03-27T04:10:03.592601002Z"
     description: Backend service with DB for Tiles application
-    digest: 3c75719df86a832ebddc4277d85b1b0f951f60df71ab77f0d0209fe03a2565d7
+    digest: 4d60c5beeeee6a09528f0f162f26430c3d1361d492cd402ccaf7c7cbf2feb90c
     name: tiles-api
     type: application
     urls:
@@ -57,8 +57,18 @@ entries:
     version: 0.1.0
   tiles-client:
   - apiVersion: v2
+    appVersion: 1.0.2-beta.10
+    created: "2022-03-27T04:10:03.593583428Z"
+    description: Web client for Tiles application
+    digest: 18f67d2397fd31c49ec8b5c0b98ecf0be03594177fbac80402825a01ef807244
+    name: tiles-client
+    type: application
+    urls:
+    - https://github.com/bsord/helm-charts/raw/master/packages/tiles-client-1.0.2-beta.10.tgz
+    version: 1.0.2-beta.10
+  - apiVersion: v2
     appVersion: 1.0.2-beta.5
-    created: "2022-03-26T19:28:56.866649618Z"
+    created: "2022-03-27T04:10:03.595097567Z"
     description: Web client for Tiles application
     digest: 7ba34307a70a6c38736ca37a11654b833d1615064533981ecc1247b25e4611ac
     name: tiles-client
@@ -68,7 +78,7 @@ entries:
     version: 1.0.2-beta.5
   - apiVersion: v2
     appVersion: 1.0.2-beta.4
-    created: "2022-03-26T19:28:56.866263609Z"
+    created: "2022-03-27T04:10:03.594629955Z"
     description: Web client for Tiles application
     digest: 31738872f8826dab21f82d12df3b789e1a6c0dc5bd0a282d3bbd47408b442ef4
     name: tiles-client
@@ -78,7 +88,7 @@ entries:
     version: 1.0.2-beta.4
   - apiVersion: v2
     appVersion: 1.0.2-beta.3
-    created: "2022-03-26T19:28:56.8658729Z"
+    created: "2022-03-27T04:10:03.594146442Z"
     description: Web client for Tiles application
     digest: 10b9fb019c0ad4a3a15c7e59d6cc5f276453364306e1729a5a63d1ee0e795e21
     name: tiles-client
@@ -88,7 +98,7 @@ entries:
     version: 1.0.2-beta.3
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-26T19:28:56.86544379Z"
+    created: "2022-03-27T04:10:03.593072014Z"
     description: Web client for Tiles application
     digest: cde3e501986bbdb1fac534a0cf0ec2c0334d10a9d52c292fc6b7720a52e9f90f
     name: tiles-client
@@ -96,4 +106,4 @@ entries:
     urls:
     - https://github.com/bsord/helm-charts/raw/master/packages/tiles-client-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-26T19:28:56.85405062Z"
+generated: "2022-03-27T04:10:03.587649873Z"
