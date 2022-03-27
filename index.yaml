@@ -3,9 +3,9 @@ entries:
   postfix:
   - apiVersion: v2
     appVersion: v2.0.1
-    created: "2022-03-27T16:37:56.833351667Z"
+    created: "2022-03-27T16:41:16.123271931Z"
     description: Helm Chart for boky/postfix
-    digest: 3615a5ee55ecb2aef96b2503f3989b398d8c52ec8a2841481f20b04ebfc6eea5
+    digest: a074f50edd2ebd60f267ceac2cbbcd1618b937fddc8d653d39b4bb9271fa279d
     name: postfix
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   rcvr-smtp:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-27T16:37:56.834165974Z"
+    created: "2022-03-27T16:41:16.123805538Z"
     description: SMTP service for rcvr
-    digest: 431cd9b0b2eb459def03f716516cd0308b7cfb903f01f6362f85ed0bf8903325
+    digest: 5d1cee27660f3b93872fb6610d4f681f291fc659997ccb6c7daff69bdecef4d5
     name: rcvr-smtp
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   rr-bsord:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-27T16:37:56.834656877Z"
+    created: "2022-03-27T16:41:16.124396647Z"
     description: A customized version of react-register
-    digest: 65eb5f8bf1b9b75849a2b4d45ce5579caa62ba92643ad598ba81817866daeed0
+    digest: 68cbaf9a785ab138a1a70b220f73d1d51265ec79109b32ba3d7bbc687f5e358c
     name: rr-bsord
     type: application
     urls:
@@ -36,9 +36,9 @@ entries:
   sonny:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-27T16:37:56.835124181Z"
+    created: "2022-03-27T16:41:16.124918454Z"
     description: A Slackbot running Hubot v3
-    digest: b9aa75bb151d13b63217061872ee512a12c8a953d8d60d9011884bfecba08331
+    digest: 63554dd0d343e3b99c73ceda2a81eed5f5bb356fcae67d3a8792f3addc97fc76
     name: sonny
     type: application
     urls:
@@ -47,9 +47,9 @@ entries:
   tiles-api:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-27T16:37:56.835575585Z"
+    created: "2022-03-27T16:41:16.125510263Z"
     description: Backend service with DB for Tiles application
-    digest: 4375d024f951a677d5dbbd149eb1f39aa743c9c23349aad1c0c9c6521df0c3bc
+    digest: ccdac5c144c738b30e14cdf809a20c342d6f1587acba0e526e1a6f84a5810990
     name: tiles-api
     type: application
     urls:
@@ -57,8 +57,18 @@ entries:
     version: 0.1.0
   tiles-client:
   - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2022-03-27T16:41:16.135367905Z"
+    description: Web client for Tiles application
+    digest: aec73503669d34a90aecbd274b93d91fa0b3ee4ab32636e81b09dc084065d69e
+    name: tiles-client
+    type: application
+    urls:
+    - https://github.com/bsord/helm-charts/raw/master/packages/tiles-client-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
     appVersion: 1.0.5-beta.3
-    created: "2022-03-27T16:37:56.841135828Z"
+    created: "2022-03-27T16:41:16.134770096Z"
     description: Web client for Tiles application
     digest: adbe67527cb62c1b676e6b4012fa990938c709879bca3d058958179ba07e600c
     name: tiles-client
@@ -68,7 +78,7 @@ entries:
     version: 1.0.5-beta.3
   - apiVersion: v2
     appVersion: 1.0.5-beta.2
-    created: "2022-03-27T16:37:56.840338622Z"
+    created: "2022-03-27T16:41:16.134108587Z"
     description: Web client for Tiles application
     digest: 15c34ae85a8d13c63b06004e9497544c853399fb47fe37aa69176e3ee927b912
     name: tiles-client
@@ -78,7 +88,7 @@ entries:
     version: 1.0.5-beta.2
   - apiVersion: v2
     appVersion: 1.0.5-beta.1
-    created: "2022-03-27T16:37:56.839909618Z"
+    created: "2022-03-27T16:41:16.133444577Z"
     description: Web client for Tiles application
     digest: b347eef323753b46616f77a22ac34b5bff81028fc93b3f64ddebe10b5bba8967
     name: tiles-client
@@ -88,7 +98,7 @@ entries:
     version: 1.0.5-beta.1
   - apiVersion: v2
     appVersion: 1.0.3-beta.5
-    created: "2022-03-27T16:37:56.839505915Z"
+    created: "2022-03-27T16:41:16.132705967Z"
     description: Web client for Tiles application
     digest: bc3e0b7c17be07bff3b311236145f691ce95924caa9eca8c085ad7b6329015ec
     name: tiles-client
@@ -98,7 +108,7 @@ entries:
     version: 1.0.3-beta.5
   - apiVersion: v2
     appVersion: 1.0.3-beta.4
-    created: "2022-03-27T16:37:56.839083312Z"
+    created: "2022-03-27T16:41:16.132141958Z"
     description: Web client for Tiles application
     digest: 74c484a5cd497c04d6c9ec56a18b75f03903df8f04b5eb29738fc9207712e04b
     name: tiles-client
@@ -108,7 +118,7 @@ entries:
     version: 1.0.3-beta.4
   - apiVersion: v2
     appVersion: 1.0.3-beta.3
-    created: "2022-03-27T16:37:56.838656509Z"
+    created: "2022-03-27T16:41:16.131418848Z"
     description: Web client for Tiles application
     digest: 49c289766f1e0bc8ac55ae0dc7ff1ff9e0ead6c269242f11887fc8b9331dc56c
     name: tiles-client
@@ -118,7 +128,7 @@ entries:
     version: 1.0.3-beta.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2022-03-27T16:37:56.838234605Z"
+    created: "2022-03-27T16:41:16.130669837Z"
     description: Web client for Tiles application
     digest: 07701aeb9013552a30a168ffc0559325131731d10eec4a2e6c213a7ad550929e
     name: tiles-client
@@ -128,7 +138,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.2-beta.10
-    created: "2022-03-27T16:37:56.836512192Z"
+    created: "2022-03-27T16:41:16.126610579Z"
     description: Web client for Tiles application
     digest: 18f67d2397fd31c49ec8b5c0b98ecf0be03594177fbac80402825a01ef807244
     name: tiles-client
@@ -138,7 +148,7 @@ entries:
     version: 1.0.2-beta.10
   - apiVersion: v2
     appVersion: 1.0.2-beta.5
-    created: "2022-03-27T16:37:56.837823102Z"
+    created: "2022-03-27T16:41:16.130038828Z"
     description: Web client for Tiles application
     digest: 7ba34307a70a6c38736ca37a11654b833d1615064533981ecc1247b25e4611ac
     name: tiles-client
@@ -148,7 +158,7 @@ entries:
     version: 1.0.2-beta.5
   - apiVersion: v2
     appVersion: 1.0.2-beta.4
-    created: "2022-03-27T16:37:56.837396599Z"
+    created: "2022-03-27T16:41:16.127710195Z"
     description: Web client for Tiles application
     digest: 31738872f8826dab21f82d12df3b789e1a6c0dc5bd0a282d3bbd47408b442ef4
     name: tiles-client
@@ -158,7 +168,7 @@ entries:
     version: 1.0.2-beta.4
   - apiVersion: v2
     appVersion: 1.0.2-beta.3
-    created: "2022-03-27T16:37:56.836975295Z"
+    created: "2022-03-27T16:41:16.127236688Z"
     description: Web client for Tiles application
     digest: 10b9fb019c0ad4a3a15c7e59d6cc5f276453364306e1729a5a63d1ee0e795e21
     name: tiles-client
@@ -168,7 +178,7 @@ entries:
     version: 1.0.2-beta.3
   - apiVersion: v2
     appVersion: latest
-    created: "2022-03-27T16:37:56.835952087Z"
+    created: "2022-03-27T16:41:16.125940969Z"
     description: Web client for Tiles application
     digest: cde3e501986bbdb1fac534a0cf0ec2c0334d10a9d52c292fc6b7720a52e9f90f
     name: tiles-client
@@ -176,4 +186,4 @@ entries:
     urls:
     - https://github.com/bsord/helm-charts/raw/master/packages/tiles-client-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-27T16:37:56.830886348Z"
+generated: "2022-03-27T16:41:16.122269116Z"
